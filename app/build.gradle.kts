@@ -68,6 +68,7 @@ android {
             applicationIdSuffix = ".debug"
         }
         release {
+            applicationIdSuffix = ".rename"
             isMinifyEnabled = true
             isShrinkResources = true
             proguardFiles(
